@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
 
 const Button = (props) => {
-  // your code here
+  return <button> Reset </button>;
 };
 
 const Application = () => {
-
   // your code here
 
   const reset = () => {
