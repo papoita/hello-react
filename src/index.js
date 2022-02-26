@@ -1,23 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-
-const Button = (props) => {
-  return <button> Reset </button>;
-};
+import Button from "./components/Button";
 
 const Application = () => {
-  // your code here
 
-  const reset = () => {
-    console.log("reset");
-    // your code here
-  };
 
   return (
     <main>
-      {/* your code here -- this entire line including the curly braces can be removed */}
       <h1>Hello React</h1>
+      <Button/>
     </main>
   );
 };
