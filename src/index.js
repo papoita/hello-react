@@ -5,8 +5,7 @@ import Button from "./components/Button";
 
 const Application = () => {
   const reset = () => {
-    console.log("reset");
-    // your code here
+    setName("");
   };
   const [name, setName] = useState("");
 
