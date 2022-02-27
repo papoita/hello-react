@@ -12,12 +12,14 @@ const Application = () => {
   return (
     <main>
       <input
-        placeholder="Enter your name" type="text" value={name}
-        onChange={(event) => setName(event.target.value)}>
-      </input>
+        placeholder="Enter your name"
+        type="text"
+        value={name}
+        onChange={(event) => setName(event.target.value)}
+      ></input>
 
       <Button resetFunction={reset} />
-      <h1>Hello {name} </h1>
+      {name && <h1> Hello {name} </h1>}
     </main>
   );
 };
